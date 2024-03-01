@@ -1,6 +1,8 @@
 import me from "../me.jpg";
 import "../App.css";
 import React, { Component } from "react";
+import useSound from "use-sound";
+import boopSfx from "../boop.mp3";
 
 class Home extends Component {
   constructor(props) {
