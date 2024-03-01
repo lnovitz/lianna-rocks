@@ -1,21 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import me from "./me.jpg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={me} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <br></br>
+          <br></br>
+          <br></br>I'm a Python engineer (5 yrs) who knows JavaScript. <br></br>
+          Want the spinning to stop?{" "}
+          <a
+            class="App-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.cal.com/she-SWE/hello"
+          >
+            Hire me
+          </a>
+          !
         </p>
         <a
-          className="App-link"
+          className="App-secondary-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Built in React
         </a>
       </header>
     </div>
