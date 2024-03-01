@@ -15,7 +15,7 @@ function App() {
             class="App-link"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.cal.com/she-SWE/hello"
+            href="https://www.cal.com/she-SWE/hello?duration=30"
           >
             Hire me
           </a>
