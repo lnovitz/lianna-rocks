@@ -1,37 +1,16 @@
-import me from "./me.jpg";
+import { Routes, Route } from "react-router-dom";
+import Home from "./routes/Home";
 import "./App.css";
+import Navbar from "./Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={me} className="App-logo" alt="logo" />
-        <p>
-          <br></br>
-          <br></br>
-          <br></br>I'm a Python engineer (5+ years) who knows JavaScript.{" "}
-          <br></br>
-          Want the spinning to stop?{" "}
-          <a
-            class="App-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.cal.com/she-SWE/hello?duration=30"
-          >
-            Hire me
-          </a>
-          !
-        </p>
-        <a
-          className="App-secondary-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Built in React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </>
   );
 }
 

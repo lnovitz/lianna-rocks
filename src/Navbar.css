@@ -1,0 +1,11 @@
+#bar {
+  background-color: rgb(50, 112, 247);
+  padding: 10px;
+}
+
+#homeButton {
+  color: white;
+  text-transform: lowercase;
+  font-weight: bold;
+  padding-left: 20px;
+}
