@@ -3,9 +3,17 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div id="bar">
-      <Link id="homeButton" to="/">
+      {/* <Link id="homeButton" to="/">
         Home
-      </Link>
+      </Link> */}
+      <a
+        href="https://github.com/lnovitz/lianna-rocks"
+        target="_blank"
+        rel="noreferrer"
+        id="homeButton"
+      >
+        see code
+      </a>
     </div>
   );
 };
