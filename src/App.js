@@ -9,7 +9,8 @@ function App() {
         <p>
           <br></br>
           <br></br>
-          <br></br>I'm a Python engineer (5 yrs) who knows JavaScript. <br></br>
+          <br></br>I'm a Python engineer (5+ years) who knows JavaScript.{" "}
+          <br></br>
           Want the spinning to stop?{" "}
           <a
             class="App-link"
