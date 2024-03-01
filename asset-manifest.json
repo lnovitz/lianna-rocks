@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lianna-rocks/static/css/main.29f13779.css",
-    "main.js": "/lianna-rocks/static/js/main.d0789bed.js",
+    "main.css": "/lianna-rocks/static/css/main.cd60d9d3.css",
+    "main.js": "/lianna-rocks/static/js/main.aa82a921.js",
     "static/js/453.09dd0f27.chunk.js": "/lianna-rocks/static/js/453.09dd0f27.chunk.js",
     "static/media/me.jpg": "/lianna-rocks/static/media/me.678b4c34d8746565fa36.jpg",
     "index.html": "/lianna-rocks/index.html",
-    "main.29f13779.css.map": "/lianna-rocks/static/css/main.29f13779.css.map",
-    "main.d0789bed.js.map": "/lianna-rocks/static/js/main.d0789bed.js.map",
+    "main.cd60d9d3.css.map": "/lianna-rocks/static/css/main.cd60d9d3.css.map",
+    "main.aa82a921.js.map": "/lianna-rocks/static/js/main.aa82a921.js.map",
     "453.09dd0f27.chunk.js.map": "/lianna-rocks/static/js/453.09dd0f27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29f13779.css",
-    "static/js/main.d0789bed.js"
+    "static/css/main.cd60d9d3.css",
+    "static/js/main.aa82a921.js"
   ]
 }
