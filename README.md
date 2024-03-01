@@ -1,4 +1,4 @@
-# Website deployed at: https://lnovitz.github.io/lianna-rocks/
+Website deployed[^1] at: https://lnovitz.github.io/lianna-rocks/
 
-## This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[^1]: Deployed with Github Pages and started off as [Create React App](https://github.com/facebook/create-react-app).
 
