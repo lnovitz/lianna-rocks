@@ -3,6 +3,7 @@ import "../App.css";
 import React from "react";
 import useSound from "use-sound";
 import boopSfx from "../boop.mp3";
+import HoverCardDemo from "../HoverCard.jsx";
 
 function Home() {
   const [play, { stop }] = useSound(boopSfx, { volume: 0.5 });
@@ -10,6 +11,8 @@ function Home() {
 
   return (
     <div className="App">
+      <HoverCardDemo></HoverCardDemo>
+
       <header className="App-header">
         <img
           src={me}
@@ -40,6 +43,9 @@ function Home() {
             onMouseLeave={() => {
               setIsHovering(false);
               stop();
+            }}
+            onClick={() => {
+              console.log("test");
             }}
           >
             Hire me
