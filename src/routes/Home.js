@@ -27,7 +27,7 @@ function Home() {
         <p>
           <br></br>
           <br></br>
-          <br></br>I'm a data-driven engineer (Python, SQL, AWS Lambda, JavaScript) with 5+ years of xp{" "}
+          <br></br>I'm a data-driven engineer (Python, SQL, AWS Lambda, JavaScript)<br></br> 5+ years in technical roles{" "}
           <br></br>
           Want the spinning to stop?{" "}
           <a
