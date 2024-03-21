@@ -2,6 +2,8 @@ import React from "react";
 import * as HoverCard from "@radix-ui/react-hover-card";
 import "./HoverCardStyles.css";
 
+let resume = require('./resume.json');
+console.log("resume ", resume)
 const HoverCardDemo = () => (
   <HoverCard.Root openDelay={0}>
     <HoverCard.Trigger asChild>
@@ -32,8 +34,7 @@ const HoverCardDemo = () => (
               <div className="Text faded">@radix_ui</div>
             </div>
             <div className="Text">
-              Components, icons, colors, and templates for building
-              high-quality, accessible UI. Free and open-source.
+              { resume[0][0].bullet }
             </div>
             <div style={{ display: "flex", gap: 15 }}>
               <div style={{ display: "flex", gap: 5 }}>
